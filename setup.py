@@ -72,7 +72,7 @@ setup(
     install_requires=[
         "zope.sqlalchemy<=1.0",
         "six>=1.7",
-        "SQLAlchemy<=1.2.8",
+        "SQLAlchemy>=1.3.0",
         "Ming<=0.9.0",
         "PyMySQL<=0.9.3",
 
