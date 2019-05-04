@@ -10,11 +10,9 @@ Overview
     * - docs
       - |docs|
     * - tests
-      - | |travis| |appveyor| |requires|
-        | |codecov|
+      - | |travis| |codecov|
     * - package
-      - | |version| |wheel| |supported-versions| |supported-implementations|
-        | |commits-since|
+      - | |version| |wheel|
 .. |docs| image:: https://readthedocs.org/projects/jekyde/badge/?style=flat
     :target: https://readthedocs.org/projects/jekyde
     :alt: Documentation Status
@@ -22,14 +20,6 @@ Overview
 .. |travis| image:: https://travis-ci.org/devilicecream/jekyde.svg?branch=master
     :alt: Travis-CI Build Status
     :target: https://travis-ci.org/devilicecream/jekyde
-
-.. |appveyor| image:: https://ci.appveyor.com/api/projects/status/github/devilicecream/jekyde?branch=master&svg=true
-    :alt: AppVeyor Build Status
-    :target: https://ci.appveyor.com/project/devilicecream/jekyde
-
-.. |requires| image:: https://requires.io/github/devilicecream/jekyde/requirements.svg?branch=master
-    :alt: Requirements Status
-    :target: https://requires.io/github/devilicecream/jekyde/requirements/?branch=master
 
 .. |codecov| image:: https://codecov.io/github/devilicecream/jekyde/coverage.svg?branch=master
     :alt: Coverage Status
@@ -39,22 +29,9 @@ Overview
     :alt: PyPI Package latest release
     :target: https://pypi.org/project/jekyde
 
-.. |commits-since| image:: https://img.shields.io/github/commits-since/devilicecream/jekyde/v0.0.1.svg
-    :alt: Commits since latest release
-    :target: https://github.com/devilicecream/jekyde/compare/v0.0.1...master
-
 .. |wheel| image:: https://img.shields.io/pypi/wheel/jekyde.svg
     :alt: PyPI Wheel
     :target: https://pypi.org/project/jekyde
-
-.. |supported-versions| image:: https://img.shields.io/pypi/pyversions/jekyde.svg
-    :alt: Supported versions
-    :target: https://pypi.org/project/jekyde
-
-.. |supported-implementations| image:: https://img.shields.io/pypi/implementation/jekyde.svg
-    :alt: Supported implementations
-    :target: https://pypi.org/project/jekyde
-
 
 .. end-badges
 

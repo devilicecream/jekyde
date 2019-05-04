@@ -43,6 +43,11 @@ class JekydeModel(metaclass=JekydeModelMeta):
         except KeyError:
             return getattr(super(JekydeModel, self), item)
 
+    def __setattr__(self, key, value):
+        if key != "_obj":
+            setattr(self._obj, key, value)
+        self.__dict__[key] = value
+
     @classmethod
     def _check_different_driver(cls, driver):
         if driver == cls._driver:
