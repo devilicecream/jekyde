@@ -1,13 +1,12 @@
 [paths]
 source =
-   src
+   jekyde
    */site-packages
 
 [run]
 branch = true
 source =
     jekyde
-    tests
 parallel = true
 
 [report]

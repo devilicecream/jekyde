@@ -1,5 +1,5 @@
 graft docs
-graft src
+graft jekyde
 graft ci
 graft tests
 
